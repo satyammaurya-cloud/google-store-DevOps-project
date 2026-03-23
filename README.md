@@ -29,7 +29,7 @@ Store the following secrets in your GitHub repository settings:
 - AWS Access Key ID ```AWS_ACCESS_KEY_ID```
 - AWS Secret Access Key ```AWS_SECRET_ACCESS_KEY```
 - AWS Account ID ```AWS_ACCOUNT_ID```
-- Git PAT (Personal Access Token) ```GH_PAT```
+- Git PAT (Personal Access Token) ```GIT_PAT```
 
 ### Step 4: RDS Database Setup
 - Create RDS instance in the same VPC as EKS cluster
