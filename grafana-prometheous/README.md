@@ -32,5 +32,6 @@ kubectl get pods -n prometheus
 kubectl get svc -n prometheus
 ```
 Notes:
+```15757```
 - Replace the release name `stable` with a more descriptive release name if desired.
 - Editing the services with `kubectl edit svc` lets you change ports, annotations, or type (e.g., to `NodePort`/`LoadBalancer`) as needed.
