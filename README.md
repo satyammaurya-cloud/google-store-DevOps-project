@@ -20,9 +20,10 @@ Follow these steps in order for successful deployment:
 - Create EKS with terraform file  
 
 ### Step 2: EKS Client & Cluster Update
-- Already eks clinet server is creted update your terraform keys 
+- Already eks client server is created update your terraform keys 
 - Update cluster configuration
 - Verify cluster connectivity using `kubectl get nodes`
+- ```aws eks update-kubeconfig --region us-east-1 --name <cluster-name>```
 
 ### Step 3: Configure GitHub Secrets
 Store the following secrets in your GitHub repository settings: GitHub Repo → Settings → Secrets → Actions → New Secret
