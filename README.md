@@ -25,11 +25,11 @@ Follow these steps in order for successful deployment:
 - Verify cluster connectivity using `kubectl get nodes`
 
 ### Step 3: Configure GitHub Secrets
-Store the following secrets in your GitHub repository settings:
+Store the following secrets in your GitHub repository settings: GitHub Repo → Settings → Secrets → Actions → New Secret
 - AWS Access Key ID - ```AWS_ACCESS_KEY_ID```
 - AWS Secret Access Key - ```AWS_SECRET_ACCESS_KEY```
 - AWS Account ID - ```AWS_ACCOUNT_ID```
-- Git PAT (Personal Access Token) - ```GIT_PAT```
+- Git PAT (Personal Access Token) - ```GIT_PAT```  → Profile Settings → Developer settings → PAT → Generate new token
 
 ### Step 4: RDS Database Setup
 - Create RDS instance in the same VPC as EKS cluster
